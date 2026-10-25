@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("🏦 Loan Approval Prediction System")
 st.write("Enter the applicant details to predict loan status.")
 
-model = joblib.load("loan_approval_model.pkl")
+model = joblib.load("loan_approval_model (5).pkl")
 feature_columns = joblib.load("loan_feature_columns.pkl")
 
 with st.form("loan_form"):
